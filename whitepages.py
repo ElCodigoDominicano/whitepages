@@ -7,14 +7,13 @@ import argparse
 import pandas as pd
 
 from logger import LogCenter 
-from user_agent import USER_AGENTS
 from referer import REFERERS
+from user_agent import USER_AGENTS
 
 pd.set_option('display.max_columns', 12)
 pd.set_option('display.max_colwidth', 20)
 pd.set_option('display.max_rows', 30)
 pd.set_option('display.width', 0)
-
 
 logger = LogCenter(__name__)
 
@@ -127,6 +126,7 @@ async def search_by_name(
         async with session.get(url) as resp:
             if resp.status != 200:
                 logger.error(f"Network issue found: {resp.status}")
+                exit(0)
             else:
                 logger.info(f"Success! status: {resp.status}")
                 text_data = await resp.text()
@@ -240,6 +240,7 @@ async def main(APP_DATA: dict, args: argparse.Namespace | None = None):
     else:
         df = await data_processor(list_of_targets)
         logger.info(f"\n{df}")
+        
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Search information on person via WhitePages.")
 
