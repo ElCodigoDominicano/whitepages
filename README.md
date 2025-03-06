@@ -11,7 +11,7 @@ extensions are .json, .csv, .xlsx).
 -ei City State is optional (though helps narrow the search)
 -json | -csv | -xlsx are optional. Files need to be labeled properly for this to work correctly 
 
-Example: -n Juan Valdez -json juan.json
+Example: uv run whitepages.py -n Juan Valdez -json juan.json
 
 The example above searches for one of the greatest coffee farmer known to man and provide some contact information
 (Juan Valdez is a fictional character appeared in advertisements throughout the latin americas, carribeans, etc)
