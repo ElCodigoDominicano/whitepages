@@ -13,7 +13,7 @@ extensions are .json, .csv, .xlsx). All from the comfort of your terminal!
 
 Example: uv run whitepages.py -n Juan Valdez -json juan.json
 
-The example above searches for one of the greatest coffee farmer known to man and provide some contact information
+The example above searches for one of the greatest coffee farmers known to man and provide some contact information
 (Juan Valdez is a fictional character appeared in advertisements throughout the latin americas, carribeans, etc)
 and writes anyone matching the name to a juan.json file.
 ## ¡Disfrute de un buen café! (Enjoy a good coffee!)
