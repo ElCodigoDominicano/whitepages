@@ -23,8 +23,20 @@ and writes anyone matching the name to a juan.json file.
 ## 2) The pyproject.toml file contains the required dependencies.
 ## 3) uv run whitepages.py -n Juan Valdez 
 
-## usage: whitepages.py [-h] -n FIRSTNAME LASTNAME [-ei CITY STATE] [-json JSONFILE] [-csv CSVFILE] [-xlsx XLSXFILE]
+## usage: whitepages.py [-h] -n FIRSTNAME LASTNAME [-ei CITY STATE] [-json JSONFILE] [-csv CSVFILE] [-xlsx XLSXFILE]  
 
+# FAQs  
+Q: Why?
+A: Why not?
+
+Q: I get the status code 4xx!
+A: Too many Request, Banned, Change IP.
+
+Q: May I use this on a windows machine?
+A: Probably..........not.
+
+Q: Will you release this to work on a windows machine?
+A: Probably..........not.
 # P.S. IF YOU USE THIS FOR NEFARIOUS REASONS, YOUR ASS IS HELD RESPONSIBLE, NOT MINES.
 
 # P.P.S DON'T BE AN ASS.
