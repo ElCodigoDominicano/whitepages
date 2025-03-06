@@ -3,9 +3,9 @@
 ## Anywho..
 
 Salutations! This is a tool like many other OSINT tools, is used to obtain information on lets say a 'friend'.
-information such as Occupation, Address, Phone number, Relatives (names only), a brief description.
+Information such as their Occupation, Address, Phone number, Relatives (names only), A brief description and more.
 With multiple ways to view this data, either as a dataframe within the terminal, or written to a file (allowed
-extensions are .json, .csv, .xlsx.
+extensions are .json, .csv, .xlsx).
 
 -n is required First Name Last Name will show data in a DataFrame
 -ei City State is optional (though helps narrow the search)
