@@ -18,12 +18,12 @@ The example above searches for one of the greatest coffee farmers known to man a
 and writes anyone matching the name to a juan.json file.
 ## ¡Disfrute de un buen café! (Enjoy a good coffee!)
 
-## Required Dependencies: AioHttp, Pandas, OpenPyXl
-## 1) Download and install uv. -> https://docs.astral.sh/uv/getting-started/installation/
-## 2) The pyproject.toml file contains the required dependencies.
-## 3) uv run whitepages.py -n Juan Valdez 
+### Required Dependencies: AioHttp, Pandas, OpenPyXl
+### 1) Download and install uv. -> https://docs.astral.sh/uv/getting-started/installation/
+### 2) The pyproject.toml file contains the required dependencies.
+### 3) uv run whitepages.py -n Juan Valdez 
 
-## usage: whitepages.py [-h] -n FIRSTNAME LASTNAME [-ei CITY STATE] [-json JSONFILE] [-csv CSVFILE] [-xlsx XLSXFILE]  
+### usage: whitepages.py [-h] -n FIRSTNAME LASTNAME [-ei CITY STATE] [-json JSONFILE] [-csv CSVFILE] [-xlsx XLSXFILE]  
 
 # FAQs  
 Q: Why?  
