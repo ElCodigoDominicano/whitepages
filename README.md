@@ -31,7 +31,7 @@ A: Why not?
 
 Q: I get the status code 4xx!  
 A: Too many Request, Banned, Change IP.  
-
+  
 Q: May I use this on a windows machine?  
 A: Probably..........not.  
 
